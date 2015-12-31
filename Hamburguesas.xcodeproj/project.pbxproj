@@ -12,6 +12,9 @@
 		526A60401C359784001A1820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526A603E1C359784001A1820 /* Main.storyboard */; };
 		526A60421C359784001A1820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526A60411C359784001A1820 /* Assets.xcassets */; };
 		526A60451C359784001A1820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526A60431C359784001A1820 /* LaunchScreen.storyboard */; };
+		526A604D1C3597B9001A1820 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526A604C1C3597B9001A1820 /* Datos.swift */; };
+		526A604F1C3597CF001A1820 /* Colores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526A604E1C3597CF001A1820 /* Colores.swift */; };
+		526A60511C3599C6001A1820 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526A60501C3599C6001A1820 /* Random.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,10 @@
 		526A60411C359784001A1820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526A60441C359784001A1820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		526A60461C359784001A1820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526A604C1C3597B9001A1820 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		526A604E1C3597CF001A1820 /* Colores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colores.swift; sourceTree = "<group>"; };
+		526A60501C3599C6001A1820 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		52F8905E1C35A44700583261 /* pruebas.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = pruebas.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +61,16 @@
 		526A60391C359784001A1820 /* Hamburguesas */ = {
 			isa = PBXGroup;
 			children = (
+				526A604C1C3597B9001A1820 /* Datos.swift */,
+				526A604E1C3597CF001A1820 /* Colores.swift */,
+				526A60501C3599C6001A1820 /* Random.swift */,
 				526A603A1C359784001A1820 /* AppDelegate.swift */,
 				526A603C1C359784001A1820 /* ViewController.swift */,
 				526A603E1C359784001A1820 /* Main.storyboard */,
 				526A60411C359784001A1820 /* Assets.xcassets */,
 				526A60431C359784001A1820 /* LaunchScreen.storyboard */,
 				526A60461C359784001A1820 /* Info.plist */,
+				52F8905E1C35A44700583261 /* pruebas.playground */,
 			);
 			path = Hamburguesas;
 			sourceTree = "<group>";
@@ -137,6 +148,9 @@
 			files = (
 				526A603D1C359784001A1820 /* ViewController.swift in Sources */,
 				526A603B1C359784001A1820 /* AppDelegate.swift in Sources */,
+				526A60511C3599C6001A1820 /* Random.swift in Sources */,
+				526A604D1C3597B9001A1820 /* Datos.swift in Sources */,
+				526A604F1C3597CF001A1820 /* Colores.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +298,7 @@
 				526A604B1C359784001A1820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
